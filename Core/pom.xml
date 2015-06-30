@@ -17,12 +17,5 @@
             <version>${project.vertx.version}</version>
             <scope>compile</scope>
         </dependency>
-
-        <dependency>
-            <groupId>io.vertx</groupId>
-            <artifactId>vertx-platform</artifactId>
-            <version>${project.vertx.version}</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
 </project>

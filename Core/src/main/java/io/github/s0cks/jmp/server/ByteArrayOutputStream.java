@@ -1,11 +1,11 @@
-package io.github.s0cks.jmp.io;
+package io.github.s0cks.jmp.server;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
-public class ByteArrayOutputStream extends OutputStream {
+final class ByteArrayOutputStream extends OutputStream {
     protected byte[] buf;
     protected int count;
 

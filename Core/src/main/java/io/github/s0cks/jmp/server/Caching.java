@@ -1,11 +1,11 @@
-package io.github.s0cks.jmp.collection;
+package io.github.s0cks.jmp.server;
 
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public final class Caching {
+final class Caching {
     public static final int MAX_SIZE = Integer.valueOf(System.getProperty("jmp.cacheSize", "127"));
 
     private Caching() {
